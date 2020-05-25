@@ -15,7 +15,7 @@ Below are the key features which have been used in this project:
 4. Spring Cache2k
 5. Explicit caching
 
-I have used some APIs of NCDC Data Access APIs for back-end calls which need a token. Please note that the value of the property below in /src/main/resources/application.properties won't actually work because I don't want to share my token and I have changed the value of the property below:
+I have used some APIs of NCDC Data Access APIs for back-end calls which need a token. Please note that the value of the property below in /src/main/resources/application.properties won't work because I don't want to share my token and I have changed the value of the property below:
 
 weather.token=
 
