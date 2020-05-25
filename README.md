@@ -14,3 +14,11 @@ Below are the key features which have been used in this project:
 3. Cache2k
 4. Spring Cache2k
 5. Explicit caching
+
+I have used some APIs of NCDC Data Access APIs for back-end calls which need a token. Please note that the value of the property below in /src/main/resources/application.properties won't actually work because I don't want to share my token and I have changed the value of the property below:
+
+weather.token=
+
+Anyone who wants to test NCDC weather APIs can go to the link below, provide his/her email address, receive the token in email and use that for the property above:
+
+https://www.ncdc.noaa.gov/cdo-web/token
